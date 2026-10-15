@@ -1,0 +1,19 @@
+
+{
+  "name": "mini-file-manager",
+  "version": "1.0.0",
+  "description": "A mini file manager built using HTML, CSS, JavaScript and Node.js core modules",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "file-manager",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT"
+}

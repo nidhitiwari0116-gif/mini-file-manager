@@ -1,0 +1,89 @@
+
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    padding: 30px;
+    margin: 0;
+    color: #222;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #263238;
+}
+
+.intro {
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Section boxes */
+.box {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+/* Input and textarea */
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font: inherit;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* Buttons */
+button {
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #125aa0;
+}
+
+/* File list */
+li {
+    margin: 10px 0;
+    overflow-wrap: anywhere;
+}
+
+#message,
+#systemInfo {
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .box {
+        padding: 15px;
+    }
+}

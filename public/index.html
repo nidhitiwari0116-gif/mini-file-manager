@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini File Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>📁 Mini File Manager</h1>
+
+    <p class="intro">
+        A simple project using HTML, CSS, JavaScript and Node.js core modules.
+    </p>
+
+    <!-- Create File -->
+    <div class="box">
+        <h2>Create File</h2>
+
+        <input
+            id="filename"
+            type="text"
+            placeholder="Example: notes.txt"
+        >
+
+        <textarea
+            id="content"
+            placeholder="Write your file content..."
+        ></textarea>
+
+        <button onclick="createFile()">Create File</button>
+        <p id="message" role="status"></p>
+    </div>
+
+    <!-- File List -->
+    <div class="box">
+        <h2>My Files</h2>
+
+        <button onclick="getFiles()">Show Files</button>
+        <ul id="fileList"></ul>
+    </div>
+
+    <!-- System Information -->
+    <div class="box">
+        <h2>System Information</h2>
+
+        <button onclick="getSystemInfo()">Show System Info</button>
+        <p id="systemInfo"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
